@@ -9,6 +9,6 @@ public class WateringDay {
     }
 
     String alarm() {
-        return "Water on " + nextDay + " with " + this.howMuch;
+        return "Water on " + this.nextDay + " with " + this.howMuch;
     }
 }
